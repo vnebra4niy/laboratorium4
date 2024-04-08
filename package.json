@@ -1,0 +1,26 @@
+{
+  "name": "laboratorium4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnebra4niy/laboratorium4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vnebra4niy/laboratorium4/issues"
+  },
+  "homepage": "https://github.com/vnebra4niy/laboratorium4#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "path": "^0.12.7"
+  }
+}
