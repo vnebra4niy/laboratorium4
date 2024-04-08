@@ -21,10 +21,10 @@ app.get('/success', (req, res) => {
     res.render('Success', { title: 'Success' })
   })
   
-  app.get('/students-list', (req, res) => {
-    res.render('List', { title: 'List' })
-  })
+app.get('/students-list', (req, res) => {
+  res.render('List', { title: 'List' })
+})
   
-  app.post('/add-student', studentsRouter.postAddNewStudent)
+app.post('/add-student', studentsRouter.postAddNewStudent)
 
-  app.use(errorRouter.getNotFoundPage)
+app.use(errorRouter.getNotFoundPage)
